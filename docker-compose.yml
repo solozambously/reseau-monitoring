@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  reseau_exporter:
+    build: .
+    container_name: moniteur_reseau
+    network_mode: host
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    restart: unless-stopped
