@@ -26,10 +26,7 @@ Ce projet permet de **scanner le réseau local**, d’identifier les **appareils
 ### 2. 🔧 Configuration
 
 - Modifie `appareils_connus.json` pour lister les MAC que tu connais.
-- Dans `scan_reseau.sh`, adapte l’interface réseau si besoin :
-  ```bash
-  sudo arp-scan -I wlp1s0 192.168.1.0/24
-  ```
+- Dans `scan_reseau.sh`, adapte l’interface réseau si besoin
 
 ### 3. ▶️ Démarrage
 
